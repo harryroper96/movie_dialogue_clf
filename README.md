@@ -7,7 +7,7 @@ Multi-label natural language processing (NLP) classification model to predict mo
 2. [Project Motivation](#motivation)
 3. [Data Preprocessing and Modelling](#model)
 4. [File Descriptions](#files)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+5. [Acknowledgements](#acknowledgements)
 
 ## Installation <a name="installation"></a>
 
@@ -58,6 +58,6 @@ The NLP preprocessing and model fitting were bundled into a single pipeline to p
 - `dialogue.db`: SQLite database containing training data set
 - `movie_dialogue_clf.ipynb`: notebook used to construct classification model
 
-## Licensing, Authors, Acknowledgements <a name="licensing"></a>
+## Acknowledgements <a name="acknowledgements"></a>
 
 The data for this project was obtained courtesy of the publication [Cornell Movie--Dialogs Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html) from Cristian Danescu-Niculescu-Mizil at Cornell University.
