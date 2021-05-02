@@ -28,12 +28,12 @@ A more in-depth discussion of the process of building the model can be found in 
 
 The data for this project was obtained via a publication from Cornell University (see acknowledgements below).
 
-Of the files provided, there were three dataframes of interest to this project: `movie_conversations`, `movie_lines`, and `movie_titles_metadata`. The steps taken to extract the necessary data and transform it into a format suitable for the project were as follows:
+Of the files provided, there were three data sets of interest to this project: `movie_conversations`, `movie_lines`, and `movie_titles_metadata`. The steps taken to extract the necessary data and transform it into a format suitable for the project were as follows:
 
 1. Read the data from each of the three `.txt` files into pandas dataframes
-2. Assign a conversation ID to each exchange contained in the conversations dataframe
+2. Assign a conversation ID to each exchange contained in the conversations data set
 3. Melt the conversations dataframe such that each utterance appears on a separte row with the corresponding conversation ID
-4. Join the melted dataframe with the lines dataframe to retrieve the actual text for each line ID
+4. Join the melted dataframe with the lines data set to retrieve the actual text for each line ID
 5. Join the separate rows via the conversation ID such that the entirety of each exchange appears in text format on an individual row
 6. Finally, join the dataframe of text conversations with the movie metadata to retrieve the genres for each text document, and load the final dataframe to a SQLite database
 
