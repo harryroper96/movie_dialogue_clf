@@ -22,7 +22,7 @@ The motivation behind undertaking this project was to explore whether text patte
 3. Implementing NLP techniques to convert raw text data into a matrix of feature variables
 4. Building and tuning a classification model to produce a multi-output genre prediction when passed a text quote
 
-A more in-depth discussion of the process of building the model can be found in a Medium post linked [here]().
+A more in-depth discussion of the process of building the model can be found in a Medium post linked [here](https://pub.towardsai.net/predicting-genres-from-movie-dialogue-c6bc872af33).
 
 ## Data Preprocessing and Modelling<a name="model"></a>
 
